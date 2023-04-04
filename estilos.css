@@ -1,0 +1,85 @@
+body
+{
+  
+ /*  background: purple; */
+  background: linear-gradient(#6233FF, #9433FF, #3333FF);
+  height: 100vh; 
+}
+
+h1
+{
+  color: #FF338E;  
+}
+h2
+{
+  color: #FF338E; 
+}
+h3
+{
+  color: #FF338E; 
+}
+p
+{
+  color: silver;
+}
+.parrafo
+{
+  color: lightblue; 
+}
+#cocobongo
+{
+  color: silver; 
+}
+
+form
+{
+  background: rgba (255,255,255,0.5); 
+  width: 190px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 20px; 
+}
+
+label
+{
+  front-size: 18px; 
+  font-family: 'Delicious Handrawn', cursive;
+  front-weight: 400; 
+}
+
+#nombre
+{
+  border-radius: 17px;
+  border: none;
+  padding: 8px;
+  outline: none; 
+}
+
+#email
+{
+  border-radius: 17px;
+  border: none;
+  padding: 8px;
+  outline: none; 
+}
+
+#boton-enviar
+{
+  border-radius: 17px;
+  border: none;
+  margin-top: 10px;
+  front-size: 18px;
+  padding: 12px;
+  bordr-radius: 12px; 
+  cursor: pointer; 
+  transition: 0.3s; 
+}
+
+#boton-enviar:hover
+{
+  background: #15CC68; 
+}
